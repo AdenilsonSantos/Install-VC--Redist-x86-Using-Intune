@@ -1,0 +1,2 @@
+INSTALL COMMANDS: %windir%\system32\windowspowershell\v1.0\powershell.exe -executionpolicy bypass -file "Install-file.ps1
+UNINSTALL COMMANDS: $product = Get-WmiObject -Query "SELECT * FROM Win32_Product WHERE Name LIKE '%Microsoft Visual C++%' AND Name LIKE '%x86%'";$productName = $product.Name;Uninstall-Package -Name $productName -Force
