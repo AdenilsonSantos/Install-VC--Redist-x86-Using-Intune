@@ -1,4 +1,4 @@
-# Script para desinstalar todas as versões do 7-Zip e instalar a versão mais recente
+# Script para desinstalar todas as versões do VC_redist_x64 e instalar a versão mais recente
 
 # Variável para o caminho do instalador do 7-Zip
 $zipInstallerPath = "VC_redist_x86.exe"
